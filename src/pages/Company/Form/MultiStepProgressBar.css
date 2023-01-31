@@ -13,3 +13,8 @@
 .indexedStep.accomplished {
   background-color: #116C65;
 }
+
+.RSPBprogressBar .RSPBprogression
+{
+  background-color: #116C65 !important;
+}

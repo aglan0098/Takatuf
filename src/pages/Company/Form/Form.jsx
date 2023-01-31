@@ -6,6 +6,7 @@ import Step3 from "./Step3";
 
 import MultiStepProgressBar from "./MultiStepProgressBar";
 import sentPic from "../../../assets/images/company-success.png";
+import gif from "../../../assets/images/check-gif.gif";
 
 export default function Form() {
   //state for steps
@@ -95,8 +96,18 @@ export default function Form() {
       )) || (
         <div className="container">
           <div className="row py-5">
-            <div className="col-5 m-auto">
+            <div className="col-12 col-md-8 col-lg-5 m-auto d-flex justify-content-center position-relative">
               <img src={sentPic} className="col-12" />
+              <img
+                src={gif}
+                style={{
+                  mixBlendMode: `multiply`,
+                  zIndex: `1`,
+                  width: `60%`,
+                  top: `75px`,
+                }}
+                className="position-absolute rounded"
+              />
             </div>
           </div>
         </div>
