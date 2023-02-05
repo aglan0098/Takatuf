@@ -3,8 +3,8 @@ import NavBar from "../../components/NavBar";
 import Footer from "../../components/Footer";
 
 import headerPic from "../../assets/images/headerPic.png";
+import reviews from "../../assets/images/reviews.png"
 import companies from "../../assets/images/companies.png";
-import rocet from "../../assets/images/rocet.png";
 import place from "../../assets/images/place.png";
 
 import icon1 from "../../assets/images/home_icon1.png";
@@ -64,6 +64,7 @@ export default function Home() {
 
       {/* ================= شركات ============== */}
       <div className="container py-5">
+        <img src={reviews} className="w-100 my-4" />
         <h4 className="text-center fw-bold my-5">شركات تثق بتكاتف</h4>
         <img src={companies} className="w-100 my-4" />
 
